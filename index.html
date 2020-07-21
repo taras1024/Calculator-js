@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="style.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <title>Calculator</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <a class="navbar-brand" href="#"><span class="blue">C</span><span class="red">a</span><span class="yellow">l</span><span class="blue">c</span><span class="green">u</span><span class="red">l</span><span class="yellow">a</span><span class="blue">tor</span></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="container mt-4">    
+            <h1 id="zl-title" class="mb-2">Calculator</h1>
+        </div>    
+
+        <div class="myCalculator">
+            <div class="operations-block">
+                <button id="buttonPlus" class="btn operation-button">+</button>
+                <button id="buttonMinus" class="btn operation-button">-</button>
+                <button id="buttonMultiply" class="btn operation-button">*</button>
+                <button id="buttonDevide" class="btn operation-button">/</button>
+            </div>
+            <div class="separator">
+                <hr>
+            </div>
+            <div class="inputs-block">
+                <div class="input-block">
+                    <label>Number 1</label>
+                    <input type="number" id="number1">
+                </div>
+                <div class="input-block">
+                    <label>Number 2</label>
+                    <input type="number" id="number2">
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
